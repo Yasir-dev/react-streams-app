@@ -109,3 +109,9 @@ Configure the start script in *package.json* under scripts section
 ```
 "start": "node index.js"
 ```
+
+Start the server
+
+```
+npm start
+```
