@@ -115,3 +115,9 @@ Start the server
 ```
 npm start
 ```
+
+Start the react app, run the the following in the root directory where you cloned the repository.
+
+```
+npm start
+```
