@@ -142,3 +142,7 @@ Stream key : use the stream id from your react app from the above step
 
 * Press start streaming from your OBS Studio
 * Go to the stream detail page of your react app, refersh the page (you should see the streaming video now :D)
+
+### Conclusion
+
+This react app mainly focuses on using CRUD operations against an API server and fetch streaming content from RTMP Server. Current proptype have ver basic functionality for streaming. This can be enhanced with some securtiy feature e.g only one user can stream a video using the id from the app. This can be used to understand different React and Redux concepts for learning purposes. 
