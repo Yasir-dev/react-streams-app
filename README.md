@@ -120,3 +120,25 @@ Start the react app
 ```
 npm start
 ```
+You can now browse the app under *http://localhost:3000/* (this address may change depending upon the availibility of the port)
+
+### Steps for creating and starting a new stream
+
+* Login with your google account (this app uses google OAuth for login)
+* Create a new stream with a title and description
+* Now click on the created stream (you can always edit or delete a stream details)
+* Copy the ID from the stream URL
+* Install OBS Studio https://obsproject.com/ for streaming from your machine
+* After installation you need to so setup up Audio/Video for your stream. you can refer this documentation here https://obsproject.com/wiki/OBS-Studio-Quickstart
+* Go to the stream section under settings of your OBS Studio and set the following:
+
+```
+Stream Type : Custom Streaming Server
+
+URL : rtmp://localhost/live
+
+Stream key : use the stream id from your react app from the above step
+```
+
+* Press start streaming from your OBS Studio
+* Go to the stream detail page of your react app, refersh the page (you should see the streaming video now :D)
