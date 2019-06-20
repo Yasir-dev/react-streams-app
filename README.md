@@ -49,3 +49,15 @@ Create a new file *db.json* under your project root with the following content
 }
 ```
 
+Add the following line in your *package.json* under scripts section
+
+```
+"start": "json-server -p 3301 -w db.json"
+```
+
+Start the server
+
+```
+npm start
+```
+
