@@ -6,27 +6,6 @@ I created this fun App while learing about React and Redux. This is a very simpl
 
 ![app](https://github.com/Yasir-dev/react-streams-app/blob/master/achitecture.png)
 
-
-### Set up for running the React App
-
-Clone the repo on your machine
-
-```
-git clone https://github.com/Yasir-dev/react-streams-app.git
-```
-
-Install the required packages, make sure Node and NPM are installed on you machine
-
-```
-npm install
-```
-
-Start the react app
-
-```
-npm start
-```
-
 ### Set up API Server (JSON Server)
 
 Create a new directory e.g
@@ -122,3 +101,22 @@ Start the server
 npm start
 ```
 
+### Set up for running the React App
+
+Clone the repo on your machine
+
+```
+git clone https://github.com/Yasir-dev/react-streams-app.git
+```
+
+Install the required packages, make sure Node and NPM are installed on you machine
+
+```
+npm install
+```
+
+Start the react app
+
+```
+npm start
+```
