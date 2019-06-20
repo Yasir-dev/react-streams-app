@@ -145,4 +145,4 @@ Stream key : use the stream id from your react app from the above step
 
 ### Conclusion
 
-This react app mainly focuses on using CRUD operations against an API server and fetch streaming content from RTMP Server. Current proptype have ver basic functionality for streaming. This can be enhanced with some securtiy feature e.g only one user can stream a video using the id from the app. This can be used to understand different React and Redux concepts for learning purposes. 
+This react app mainly focuses on using CRUD operations against an API server and fetch streaming content from RTMP Server. Current proptype have very basic functionality for streaming. This app can be enhanced with some securtiy feature e.g only one user can stream a video using the id from the app. This can be used to understand different React and Redux concepts for learning purposes. 
