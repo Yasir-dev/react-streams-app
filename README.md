@@ -26,7 +26,7 @@ Install json-server (https://www.npmjs.com/package/json-server#getting-started)
 npm install --save json-server
 ```
 
-Create a new file *db.json* under your project root with the following content
+Create a new file **db.json** under your project root with the following content
 
 ```
 {
@@ -34,7 +34,7 @@ Create a new file *db.json* under your project root with the following content
 }
 ```
 
-Configure the start script in *package.json* under scripts section
+Configure the start script in **package.json** under scripts section
 
 ```
 "start": "json-server -p 3301 -w db.json"
