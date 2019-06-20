@@ -21,6 +21,12 @@ Install the required packages, make sure Node and NPM are installed on you machi
 npm install
 ```
 
+Start the react app
+
+```
+npm start
+```
+
 ### Set up API Server (JSON Server)
 
 Create a new directory e.g
@@ -116,8 +122,3 @@ Start the server
 npm start
 ```
 
-Start the react app, run the the following in the root directory where you cloned the repository.
-
-```
-npm start
-```
